@@ -199,7 +199,7 @@ var fs = require('fs');
 // }
 
 
-// // Sorting Function
+// Sorting Function
 // function dynamicSort(property) {
 //     var sortOrder = 1;
     
@@ -216,6 +216,47 @@ var fs = require('fs');
 
 // get wordData
 
-var data1= fs.readFileSync('./dataBase/wordData.json');
-var data=JSON.parse(data1);
+// var data1= fs.readFileSync('./dataBase/wordData.json');
+// var data=JSON.parse(data1);
+
+// Pronoun Data
+
+// var data= fs.readFileSync('./raw/rawPronounData.json');
+// var pronounData=JSON.parse(data);
+
+// let word=[];
+
+// let objData=[
+//     {
+//     'word':"example"
+//     }
+// ];
+
+// let type="";
+
+// for(var i=0;i<pronounData.length;i++){
+//     if(pronounData[i]==""){
+//         type=pronounData[i+1]
+//         continue;
+//     }
+//     if(pronounData[i-1]=="" ){
+//         continue;
+//     }
+//         word[i]=pronounData[i];
+//         // console.log(word[i]);
+//         objData.push({
+//             "word":word[i],
+//             "type":type,
+//             "value":0
+//         });  
+// }
+// console.log(objData);
+
+// objData.sort(dynamicSort("word"));
+
+// var vdata=JSON.stringify(objData);
+// fs.writeFile('./parsed/pronounData.json',vdata,finished);
+// function finished(err){
+//     console.log('all set');
+// }
 
