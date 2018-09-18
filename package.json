@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "jquery": "^3.3.1",
+    "lodash": "^4.17.11",
+    "uniq": "^1.0.1"
+  }
 }
