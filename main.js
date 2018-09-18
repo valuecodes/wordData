@@ -15,11 +15,15 @@ var verb=JSON.parse(verbdata);
 var noundata= fs.readFileSync('./parsed/nounData.json');
 var noun=JSON.parse(noundata);
 
+console.log(noun.length);
 
-console.log("I "
-+verb[Math.floor(Math.random()*verb.length)].word
-+" "+adj[Math.floor(Math.random()*adj.length)].word
-+" "+noun[Math.floor(Math.random()*noun.length)].word
-+" "+adverb[Math.floor(Math.random()*adverb.length)].word);
+// Random Word
+
+// console.log("I "
+// +verb[Math.floor(Math.random()*verb.length)].word
+// +" "+adj[Math.floor(Math.random()*adj.length)].word
+// +" "+noun[Math.floor(Math.random()*noun.length)].word
+// +" "+adverb[Math.floor(Math.random()*adverb.length)].word);
+
 
 
